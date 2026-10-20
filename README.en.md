@@ -2,7 +2,7 @@
 
 **Start with a math problem. Understand through visuals. Think through guided questions.**
 
-[Try the product](https://exam.thinkmoon.cn/) · [中文介绍](README.md)
+[Try the product](https://exam.thinkmoon.cn/) · [Live marketing site](https://thinkmoon.github.io/zhihui-teacher/) · [中文介绍](README.md)
 
 ![Guided math learning with visual explanations](assets/overview.png)
 
@@ -28,7 +28,13 @@ Open `index.html` directly, or run this command with an existing Python 3 instal
 python -m http.server 8080 --bind 127.0.0.1
 ```
 
-Then visit `http://127.0.0.1:8080`. No dependencies, build step or API keys are required. This repository does not automatically deploy to production or enable GitHub Pages.
+Then visit `http://127.0.0.1:8080`. No dependencies, build step or API keys are required.
+
+## GitHub Pages
+
+The `main` branch root is automatically published at **https://thinkmoon.github.io/zhihui-teacher/**. `.nojekyll` enables plain static publishing. Media is available under `/zhihui-teacher/assets/`, for example [the area animation](https://thinkmoon.github.io/zhihui-teacher/assets/area-growth.mp4).
+
+The official product website and canonical URL remain **https://exam.thinkmoon.cn/**. Publishing this repository does not change that website or its application. The project-level `robots.txt` does not control crawling for the entire `thinkmoon.github.io` domain.
 
 ## Contributions and licensing
 

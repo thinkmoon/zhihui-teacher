@@ -6,7 +6,7 @@
 
 面向小学数学与小升初学习场景的 AI 作业辅导，让孩子在分步提问与数形结合中理解解题过程。
 
-[立即体验](https://exam.thinkmoon.cn/) · [动画与截图](#动画与截图) · [本地预览](#本地预览) · [English](README.en.md)
+[立即体验](https://exam.thinkmoon.cn/) · [在线宣传页](https://thinkmoon.github.io/zhihui-teacher/) · [动画与截图](#动画与截图) · [本地预览](#本地预览) · [English](README.en.md)
 
 ![静态站点](https://img.shields.io/badge/HTML%20%2B%20CSS-零构建依赖-234f4a)
 [![License: MIT](https://img.shields.io/badge/Code-MIT-blue.svg)](LICENSE)
@@ -67,8 +67,22 @@
 
 - 正式官网始终是 **https://exam.thinkmoon.cn/**。
 - 本地页面的体验按钮跳转至现有线上产品，不需要部署后端。
-- 本仓库不会自动部署或修改官网，也不默认启用 GitHub Pages。
+- GitHub Pages 自动发布本仓库的静态宣传页与资源，不修改正式官网或应用。
 - 页面正文直接包含在 HTML 中，无需 JavaScript 渲染，无第三方字体或运行时依赖。
+
+## 在线宣传页与静态资源
+
+访问 **https://thinkmoon.github.io/zhihui-teacher/**。GitHub Pages 从 `main` 分支根目录发布，推送后由 GitHub 自动更新；`.nojekyll` 使静态文件直接发布，无需 Jekyll 构建。
+
+静态资源可以通过 HTTPS 直接引用，例如：
+
+- 截图：`https://thinkmoon.github.io/zhihui-teacher/assets/overview.png`
+- 动图：`https://thinkmoon.github.io/zhihui-teacher/assets/area-demo.gif`
+- 视频：`https://thinkmoon.github.io/zhihui-teacher/assets/area-growth.mp4`
+
+页面内部使用相对资源路径，适配 `/zhihui-teacher/` 子路径。正式官网、canonical 和体验按钮仍指向 `https://exam.thinkmoon.cn/`，不绑定新的自定义域名。项目目录内的 `robots.txt` 不能控制整个 `thinkmoon.github.io` 域名的抓取规则；抓取规则以该域名根路径为准。
+
+现有官网尚未改为引用这些资源；如需引用，使用上述完整地址。更新同名资源后可能存在缓存，重要版本可使用新文件名。
 
 ## 本地预览
 
