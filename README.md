@@ -6,7 +6,7 @@
 
 智绘老师是一款 AI 智能辅导产品，通过分步提问与可视化讲解，陪伴学习者理解问题、理清思路。
 
-[立即体验](https://exam.thinkmoon.cn/) · [在线宣传页](https://thinkmoon.github.io/zhihui-teacher/) · [动画与截图](#动画与截图) · [本地预览](#本地预览) · [English](README.en.md)
+[立即体验](https://exam.thinkmoon.cn/static/#/login) · [在线宣传页](https://thinkmoon.github.io/zhihui-teacher/) · [动画与截图](#动画与截图) · [本地预览](#本地预览) · [English](README.en.md)
 
 ![静态站点](https://img.shields.io/badge/HTML%20%2B%20CSS-零构建依赖-234f4a)
 [![License: MIT](https://img.shields.io/badge/Code-MIT-blue.svg)](LICENSE)
@@ -31,9 +31,9 @@
 
 ### 面积变化：把增加的部分画出来
 
-[![面积增加的数形结合动画](assets/area-demo.gif)](https://exam.thinkmoon.cn/)
+[![面积增加的数形结合动画](assets/area-demo.gif)](https://exam.thinkmoon.cn/static/#/login)
 
-上图为产品现有案例录屏片段。点击图片进入官网，或查看 [MP4 原始演示](assets/area-growth.mp4)。
+上图为产品现有案例录屏片段。点击图片进入产品登录页，或查看 [MP4 原始演示](assets/area-growth.mp4)。
 
 ### 从选方法到理解数量关系
 
@@ -54,7 +54,7 @@
 
 ## 开始体验
 
-1. 打开 **[exam.thinkmoon.cn](https://exam.thinkmoon.cn/)**，进入产品并登录或注册。
+1. 打开 **[产品登录页](https://exam.thinkmoon.cn/static/#/login)**，进入产品并登录或注册。
 2. 上传题目，或选择产品内提供的经典案例。
 3. 阅读问题、观察图形、尝试作答，再跟随提示继续。
 4. 完成后回顾解题过程和学习小结。
@@ -80,7 +80,7 @@
 - 动图：`https://thinkmoon.github.io/zhihui-teacher/assets/area-demo.gif`
 - 视频：`https://thinkmoon.github.io/zhihui-teacher/assets/area-growth.mp4`
 
-页面内部使用相对资源路径，适配 `/zhihui-teacher/` 子路径。正式官网、canonical 和体验按钮仍指向 `https://exam.thinkmoon.cn/`，不绑定新的自定义域名。项目目录内的 `robots.txt` 不能控制整个 `thinkmoon.github.io` 域名的抓取规则；抓取规则以该域名根路径为准。
+页面内部使用相对资源路径，适配 `/zhihui-teacher/` 子路径。正式官网与 canonical 仍指向 `https://exam.thinkmoon.cn/`，体验按钮指向 `https://exam.thinkmoon.cn/static/#/login`，不绑定新的自定义域名。项目目录内的 `robots.txt` 不能控制整个 `thinkmoon.github.io` 域名的抓取规则；抓取规则以该域名根路径为准。
 
 现有官网尚未改为引用这些资源；如需引用，使用上述完整地址。更新同名资源后可能存在缓存，重要版本可使用新文件名。
 
@@ -126,4 +126,4 @@ LICENSE          宣传站代码的 MIT 许可证
 
 ---
 
-**从观察图形，到自己作答。** → [前往智绘老师](https://exam.thinkmoon.cn/)
+**从观察图形，到自己作答。** → [前往智绘老师](https://exam.thinkmoon.cn/static/#/login)
