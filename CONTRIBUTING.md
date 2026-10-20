@@ -20,3 +20,7 @@
 - canonical 与 sitemap 指向正式官网，公开副本不要自行覆盖官网规范地址。
 
 代码无需构建。GitHub Pages 从 `main` 根目录自动发布，保留 `.nojekyll`，资源路径必须支持 `/zhihui-teacher/` 前缀。发布后验证 Pages 首页、图片和视频的 HTTPS 访问与播放；不会自动修改正式官网。搜索引擎索引需要另行验证。
+
+## 品牌标识
+
+使用 `assets/brand-logo.jpg` 作为智绘老师 Logo，宣传页、README、浏览器图标和分享图保持一致。不再使用 ∑ 等临时标识。

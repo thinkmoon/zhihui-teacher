@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/brand-logo.jpg" alt="智绘老师 Logo" width="128" height="128"></p>
+
 # Zhihui Teacher · 智绘老师
 
 **Start with a question. Understand through visuals. Think through guided questions.**

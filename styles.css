@@ -408,3 +408,5 @@ footer {
 }
 
 
+
+.mark { width: 42px; height: 42px; object-fit: contain; border-radius: 50%; background: transparent; flex-shrink: 0; }

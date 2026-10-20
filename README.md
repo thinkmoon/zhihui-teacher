@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/brand-logo.jpg" alt="智绘老师 Logo" width="128" height="128"></p>
+
 <div align="center">
 
 # 智绘老师 · Zhihui Teacher
