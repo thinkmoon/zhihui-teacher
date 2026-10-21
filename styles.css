@@ -410,3 +410,7 @@ footer {
 
 
 .mark { width: 42px; height: 42px; object-fit: contain; border-radius: 50%; background: transparent; flex-shrink: 0; }
+
+.scenario-faq-title { margin: 38px 0 8px; font-size: 21px; }
+@media (max-width: 400px) { .topbar nav { gap: 10px; } .topbar .brand { font-size: 17px; } .topbar .mark { width: 34px; height: 34px; } }
+@media (max-width: 400px) { .topbar nav a[href="#how"] { display: none; } }
